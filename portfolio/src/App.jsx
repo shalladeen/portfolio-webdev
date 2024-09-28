@@ -3,9 +3,10 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Layout from './components/Layout';
 import { Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home/Home';
-import About from './components/pages/About';
-import Contact from './components/pages/Contact';
-import Education from './components/pages/Education';
+import About from './components/pages/About/About';
+import Contact from './components/pages/Contact/Contact';
+import Services from './components/pages/Services/Services';
+import Projects from './components/pages/Project/Project';
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="education" element={<Education />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="services" element={<Services />} />
         </Route>
       </Routes>
     </Router>

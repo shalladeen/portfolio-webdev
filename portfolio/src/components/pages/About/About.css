@@ -1,0 +1,34 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    text-align: center;
+    background-color: #fffffd;
+    color: #2d2b2f;
+}
+
+.about-container h1 {
+    font-size: 3rem;
+}
+
+.about-container p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.resume-link {
+    font-size: 1.2rem;
+    color: #2d2b2f;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #2d2b2f;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.resume-link:hover {
+    background-color: #2d2b2f;
+    color: #fffffd;
+}
