@@ -25,12 +25,14 @@ header {
 
 /* Nav */
 
+
 .nav-link {
     color: #2d2b2f;
     margin: 0 1  rem;
     text-decoration: none;
     position: relative;
     padding: 10px;
+    font-size: large;
 }
 
 .nav-link::after {
@@ -59,7 +61,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 .home-container {
