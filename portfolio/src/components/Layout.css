@@ -1,9 +1,18 @@
+/* 
+  File Name: Layout.css
+  Student’s Name: Shawna Halladeen
+  Student ID: 301154976
+  Date: September 28, 2024
+*/
+
+/* Global reset for margins and paddings */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Basic body styling */
 body {
     font-family: Arial, sans-serif;
     height: 100vh;
@@ -13,6 +22,7 @@ body {
     color: #2d2b2f;
 }
 
+/* Header styling */
 header {
     background-color: #fffffd;
     padding: 1rem;
@@ -23,7 +33,7 @@ header {
     text-align: center;
 }
 
-
+/* Logo styling */
 .logo {
     position: absolute;
     top: 20px;
@@ -36,18 +46,17 @@ header {
     text-align: center;
 }
 
-/* Nav */
-
-
+/* Navigation link styling */
 .nav-link {
     color: #2d2b2f;
-    margin: 0 1  rem;
+    margin: 0 1rem;
     text-decoration: none;
     position: relative;
     padding: 10px;
     font-size: large;
 }
 
+/* Underline animation for nav links */
 .nav-link::after {
     content: "";
     position: absolute;
@@ -58,30 +67,17 @@ header {
     left: 50%;
     transform: translateX(-50%);
     transition: width 0.3s ease;
-
-}
-
-.nav-link:hover{
-    color: #2d2b2f;
 }
 
 .nav-link:hover::after {
     width: 50%;
 }
 
+/* Main content styling */
 main {
     flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 100px;
-}
-
-.home-container {
-    text-align: center;
-}
-
-.home-container h1 {
-    font-size: 3rem;
-    color:#2d2b2f;
 }

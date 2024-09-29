@@ -1,3 +1,11 @@
+/*
+  File Name: Projects.js
+  Student’s Name: Shawna Halladeen
+  Student ID: 301154976
+  Date: September 28, 2024
+*/
+
+// Projects component to display a list of highlighted projects
 import React from 'react';
 import './Project.css';
 
@@ -6,16 +14,19 @@ const Projects = () => {
         <div className="projects-container">
             <h1>My Projects</h1>
             <div className="project-list">
+                {/* Nibble Noodle Project */}
                 <div className="project">
                     <img src="src/assets/snake.png" alt="nibble noodle" />
                     <h3>Nibble Noodle</h3>
                     <p>A simple pixel snake game built with JavaScript, HTML, and CSS</p>
                 </div>
+                {/* VitalSense Project */}
                 <div className="project">
                     <img src="src/assets/vitalsense.png" alt="VitalSense" />
                     <h3>VitalSense</h3>
                     <p>A pulse sensor made with Arduino. Frontend made with React, backend made with Node.js and Express.js</p>
                 </div>
+                {/* Koda Project */}
                 <div className="project">
                     <img src="src/assets/Koda.png" alt="Koda" />
                     <h3>Koda</h3>

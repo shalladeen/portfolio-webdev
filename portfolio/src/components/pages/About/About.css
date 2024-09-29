@@ -1,3 +1,11 @@
+/* 
+  File Name: About.css
+  Student’s Name: Shawna Halladeen
+  Student ID: 301154976
+  Date: September 28, 2024
+*/
+
+/* About container styling */
 .about-container {
     display: flex;
     flex-direction: column;
@@ -10,15 +18,18 @@
     max-width: 800px;
 }
 
+/* Heading style */
 .about-container h1 {
     font-size: 3rem;
 }
 
+/* Paragraph styling */
 .about-container p {
     font-size: 1.5rem;
     margin: 1rem 0;
 }
 
+/* Resume link styling */
 .resume-link {
     font-size: 1.2rem;
     color: #2d2b2f;

@@ -1,3 +1,11 @@
+/*
+  File Name: About.js
+  Student’s Name: Shawna Halladeen
+  Student ID: 301154976
+  Date: September 28, 2024
+*/
+
+// About component providing details and a resume download link
 import React from 'react';
 import './About.css';
 
