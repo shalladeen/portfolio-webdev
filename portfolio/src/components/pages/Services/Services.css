@@ -1,0 +1,13 @@
+.services-container {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.service-list {
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+.service-list li {
+    margin-bottom: 10px;
+}

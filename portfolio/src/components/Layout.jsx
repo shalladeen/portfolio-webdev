@@ -7,6 +7,7 @@ export default function Layout() {
         <>
             <header>
                 <nav>
+                <div className="logo">SH</div>
                     <Link className="nav-link" to="/">Home</Link> 
                     <Link className="nav-link" to="/about">About</Link> 
                     <Link className="nav-link" to="/projects">Projects</Link>

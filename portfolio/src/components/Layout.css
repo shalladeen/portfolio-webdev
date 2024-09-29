@@ -23,6 +23,19 @@ header {
     text-align: center;
 }
 
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 2rem;
+    background-color: #2d2b2f;
+    color: #fffffd;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+
 /* Nav */
 
 
