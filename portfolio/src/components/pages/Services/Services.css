@@ -9,15 +9,42 @@
 .services-container {
     text-align: center;
     padding-top: 100px;
+    position: relative;
 }
 
 /* Styling for service list */
 .service-list {
     list-style-type: none;
     font-size: 1.5rem;
+    z-index: 2; 
 }
 
-/* Each service item */
 .service-list li {
     margin-bottom: 10px;
+}
+
+/* Container for project images */
+.service-images {
+    position: relative;
+    margin-top: 20px;
+}
+
+/* Styling for Koda project image */
+.koda-image {
+    position: absolute;
+    right: -100px;
+    top: 0px;
+    width: 200px;
+    border-radius: 8px;
+    
+}
+
+/* Styling for Snake project image */
+.snake-image {
+    position: absolute;
+    bottom: -30px;
+    left: -200px;
+    width: 150px;
+    border-radius: 8px;
+    
 }
