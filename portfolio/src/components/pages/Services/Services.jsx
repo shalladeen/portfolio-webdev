@@ -7,6 +7,8 @@
 
 // Services component displaying the services offered with project images
 import React from 'react';
+import Koda from '../../../assets/Koda.png';
+import NibbleNoodle from '../../../assets/snake.png';
 import './Services.css';
 
 const Services = () => {
@@ -21,8 +23,8 @@ const Services = () => {
 
             {/* Project images */}
             <div className="service-images">
-                <img src="src/assets/Koda.png" alt="Koda project" className="koda-image" />
-                <img src="src/assets/snake.png" alt="Nibble Noodle project" className="snake-image" />
+                <img src={Koda} alt="Koda project" className="koda-image" />
+                <img src={NibbleNoodle} alt="Nibble Noodle project" className="snake-image" />
             </div>
         </div>
     );
